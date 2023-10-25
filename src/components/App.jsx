@@ -21,11 +21,11 @@ const App = () => {
           <Route exact path="/actors/:id">
             <Actors />
           </Route>
-          <Route path="/">
-            <Movies />
-          </Route>
           <Route exact path="/profile/:id">
             <Profile />
+          </Route>
+          <Route path="/">
+            <Movies />
           </Route>
         </Switch>
       </main>
