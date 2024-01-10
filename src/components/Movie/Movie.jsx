@@ -6,7 +6,6 @@ import useStyles from './styles';
 
 const Movie = ({ movie, i }) => {
   const classes = useStyles();
-  console.log('poster path', movie.poster_path);
   return (
     <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
       <Grow in key={i} timeout={(i + 1) * 250}>
